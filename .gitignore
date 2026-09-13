@@ -1,4 +1,4 @@
-﻿# Byte-compiled / optimized / DLL files
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
@@ -38,6 +38,11 @@ local_settings.py
 db.sqlite3
 db.sqlite3-journal
 media/
+
+# Migrations (generadas desde cero por cada proyecto)
+**/migrations/0*.py
+**/migrations/0*.pyc
+!**/migrations/__init__.py
 
 # Environment variables
 .env
